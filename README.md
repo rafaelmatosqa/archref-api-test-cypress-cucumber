@@ -9,10 +9,10 @@ Esse projeto tem o objetivo de ajudar a todos que querem trabalhar com cypress e
 
 # Nesse projeto eu inclui a estrutura pra executar os testes em diferentes ambientes
 
-npm run test-dev
-npm run test-qa
-npm run test-uat
-npm run test-prod
+* npm run test-dev
+* npm run test-qa
+* npm run test-uat
+* npm run test-prod
 
 # Para executar os testes e gerar o report html do cucumber:
 
