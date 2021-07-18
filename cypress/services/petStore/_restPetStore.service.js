@@ -8,7 +8,7 @@ export default class Rest {
         })
     }
 
-    static post(endpoint, body) {
+    static post(endpoint,body) {
         return cy.request({
             method: 'POST',
             url: `${Cypress.env('api-pet')}` + `${endpoint}`,
