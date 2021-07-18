@@ -20,7 +20,7 @@ cy:report
 
 # Report Cucumber
 
-![alt text](https://github.com/rafaelmatosqa/archref-api-test-cypress-cucumber/blob/main/cypress/cucumber-json/index.html)?raw=true "Report Cucumber")
+![alt text](https://github.com/rafaelmatosqa/archref-api-test-cypress-cucumber/blob/main/cypress/cucumber-json/index.html?raw=true "Report Cucumber")
 
 
 
