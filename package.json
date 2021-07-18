@@ -8,7 +8,8 @@
     "test-dev": "cypress run --spec \"**/*.feature\" --env fileConfig=dev",
     "test-qa": "cypress run --spec \"**/*.feature\" --env fileConfig=qa",
     "test-uat": "cypress run --spec \"**/*.feature\" --env fileConfig=uat",
-    "test-prod": "cypress run --spec \"**/*.feature\" --env fileConfig=prod"
+    "test-prod": "cypress run --spec \"**/*.feature\" --env fileConfig=prod",
+    "cy:report": "cypress run --spec \"**/*.feature\" && node cypress/support/report-cucumber.js"
   },
   "repository": {
     "type": "git",

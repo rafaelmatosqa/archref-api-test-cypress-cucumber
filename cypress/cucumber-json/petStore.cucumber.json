@@ -1,46 +1,48 @@
 [
   {
     "keyword": "Feature",
-    "name": "",
+    "name": "Create Pet",
     "line": 2,
-    "id": "",
+    "id": "create-pet",
     "tags": [],
     "uri": "petStore.feature",
     "elements": [
       {
-        "id": ";",
+        "id": "create-pet;create-a-new-pet",
         "keyword": "Scenario",
-        "line": 5,
-        "name": "",
+        "line": 4,
+        "name": "Create a new pet",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
-            "name": "",
+            "line": 5,
+            "name": "I send a POST request with valid body",
             "result": {
-              "status": "undefined",
-              "duration": 737000000
+              "status": "passed",
+              "duration": 3361000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
-            "name": "",
+            "line": 6,
+            "name": "I receive a valid response data 'create_pet' and status code 200",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 176000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 8,
-            "name": "",
+            "line": 7,
+            "name": "The name must be equal \"Pitoco\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 39000000
             }
           }
         ]
