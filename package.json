@@ -1,0 +1,22 @@
+{
+  "name": "archref-api-test-cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Arquitetura de referência para testes de api com cypress e cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmatosqa/archref-api-test-cypress-cucumber.git"
+  },
+  "author": "Rafael Matos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelmatosqa/archref-api-test-cypress-cucumber/issues"
+  },
+  "homepage": "https://github.com/rafaelmatosqa/archref-api-test-cypress-cucumber#readme",
+  "devDependencies": {
+    "cypress": "^7.0.0"
+  }
+}
