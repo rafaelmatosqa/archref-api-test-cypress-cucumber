@@ -1,1 +1,7 @@
-{}
+{
+    "projectId": "archRefApi",
+    "video": false,
+    "ignoreTestFiles": "*.js",
+    "testFiles": "**/*.{feature,features}",
+    "defaultCommandTimeout": 25000
+}

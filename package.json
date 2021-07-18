@@ -18,5 +18,20 @@
   "homepage": "https://github.com/rafaelmatosqa/archref-api-test-cypress-cucumber#readme",
   "devDependencies": {
     "cypress": "^7.0.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.1.4",
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   }
 }
