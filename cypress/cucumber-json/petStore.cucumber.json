@@ -1,0 +1,50 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "",
+    "line": 2,
+    "id": "",
+    "tags": [],
+    "uri": "petStore.feature",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "",
+            "result": {
+              "status": "undefined",
+              "duration": 737000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

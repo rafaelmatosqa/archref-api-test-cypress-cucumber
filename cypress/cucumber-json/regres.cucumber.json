@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "List users",
+    "line": 2,
+    "id": "list-users",
+    "tags": [],
+    "uri": "regres.feature",
+    "elements": [
+      {
+        "id": "list-users;list-all-users",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "List all users",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I send a valid request",
+            "result": {
+              "status": "passed",
+              "duration": 3803000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I receive a 'list_users' and status code 200",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

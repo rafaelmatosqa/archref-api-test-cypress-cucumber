@@ -4,7 +4,11 @@
   "description": "Arquitetura de referência para testes de api com cypress e cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open",
+    "test-dev": "cypress run --spec \"**/*.feature\" --env fileConfig=dev",
+    "test-qa": "cypress run --spec \"**/*.feature\" --env fileConfig=qa",
+    "test-uat": "cypress run --spec \"**/*.feature\" --env fileConfig=uat",
+    "test-prod": "cypress run --spec \"**/*.feature\" --env fileConfig=prod"
   },
   "repository": {
     "type": "git",
@@ -20,13 +24,17 @@
     "cypress": "^7.0.0"
   },
   "dependencies": {
+    "chai": "^4.3.4",
     "cypress-cucumber-preprocessor": "^4.1.4",
+    "cypress-plugin-tab": "^1.0.5",
     "fs-extra": "^10.0.0",
+    "jsonschema": "^1.4.0",
+    "multiple-cucumber-html-reporter": "^1.18.0",
     "path": "^0.12.7"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
-    "step_definitions": "cypress/integration/step_definitions/",
+    "step_definitions": "cypress/integration/step-definitions/",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/cucumber-json",
