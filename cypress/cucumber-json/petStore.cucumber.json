@@ -22,7 +22,7 @@
             "name": "I send a POST request with valid body",
             "result": {
               "status": "passed",
-              "duration": 3361000000
+              "duration": 1157000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I receive a valid response data 'create_pet' and status code 200",
             "result": {
               "status": "passed",
-              "duration": 176000000
+              "duration": 33000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "The name must be equal \"Pitoco\"",
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 5000000
             }
           }
         ]

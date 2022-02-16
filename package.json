@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/rafaelmatosqa/archref-api-test-cypress-cucumber#readme",
   "devDependencies": {
-    "cypress": "^7.0.0"
+    "cypress": "9.5.0"
   },
   "dependencies": {
     "chai": "^4.3.4",

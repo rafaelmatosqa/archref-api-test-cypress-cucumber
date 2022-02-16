@@ -22,7 +22,7 @@
             "name": "I send a valid request",
             "result": {
               "status": "passed",
-              "duration": 2621000000
+              "duration": 588000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I receive a 'list_users' and status code 200",
             "result": {
               "status": "passed",
-              "duration": 216000000
+              "duration": 39000000
             }
           }
         ]
